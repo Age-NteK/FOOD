@@ -20,7 +20,7 @@ const { User } = require("../../db");
 const getUserById = async (req, res) => {
   try {
     const { id } = req.params;
-    console.log(req.params);
+    console.log(`UserID: ${id}`);
 
     if (!id) {
       return res.status(400).json({ message: "Missing required fields" });
@@ -28,7 +28,7 @@ const getUserById = async (req, res) => {
 
     const user = await User.findOne({ where: { id } });
 
-    console.log(user);
+    // console.log(user);
 
     if (!user) {
       return res.status(404).json({ access: false });

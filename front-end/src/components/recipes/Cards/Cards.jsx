@@ -90,7 +90,7 @@ const Cards = () => {
       </h1>
 
       <div className={styles.pagination}>
-        <button onClick={handleClick} className={styles.pagination_filter}>
+        <button onClick={handleClick} className={styles.search}>
           Search
         </button>
         <button

@@ -26,8 +26,6 @@
   grid-column: 2; /* Place the form in the second column */
 }
 
-
-
 .update_input {
   height: 33px;
   min-width: 600px;
@@ -42,13 +40,11 @@
   outline: none;
 }
 
-
-
 .update_title {
   min-width: 100%;
   justify-content: start;
   text-align: center;
-  font-size: 90px;
+  font-size: 60px;
   color: rgb(206, 206, 90);
   background-color: rgb(72, 72, 15);
   margin-bottom: 30px;
@@ -72,38 +68,38 @@
 
 .update_add_remove_btn {
   display: inline-block;
-  letter-spacing: 2px;
-  color: rgb(206, 206, 90);
-  background-color: rgba(91, 91, 21, 0.768);
+  color: rgb(247, 241, 185);
+  background-color: rgba(113, 116, 17, 0.904);
   border: none;
   font-size: 16px;
   border-radius: 10px;
-  padding: 3px;
-  margin-right: 10px;
-  margin-top:10px;
+  padding: 4px;
+  width: 150px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 .update_add_remove_btn:hover {
-  color: rgb(34, 34, 5);
-  background-color: rgb(136, 136, 28);
+  color: rgb(36, 33, 6);
+  background-color: rgb(209, 216, 0);
+  box-shadow: 0 0 15px rgb(99, 99, 11);
 }
-
 
 .update_diet_btn {
   display: inline;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border: none;
-  padding: 3px;
+  padding: 2px;
   color: rgb(206, 206, 90);
 }
 
 .update_diet_btn button {
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 1px;
   margin-right:10px;
   border-radius: 5px;
   border: none;
-  color: rgb(34, 34, 5);
+  color: rgb(250, 250, 195);
   background-color: rgb(136, 136, 28);
   padding: 3px;
 }
@@ -121,6 +117,7 @@
 }
 
 .update_update_btn:hover {
-  color: rgb(34, 34, 5);
-  background-color: rgb(136, 136, 28);
+  color: rgb(36, 33, 6);
+  background-color: rgb(209, 216, 0);
+  box-shadow: 0 0 15px rgb(99, 99, 11);
 }

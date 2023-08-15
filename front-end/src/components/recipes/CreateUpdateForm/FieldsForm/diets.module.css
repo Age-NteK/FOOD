@@ -1,19 +1,10 @@
-/* .diets label {
-  font-size: 25px;
-  letter-spacing: 1px;
-  padding: 12px;
-  color: white;
-  text-align: start;
-  justify-content: start;
-} */
-
 .diets select {
   min-width: 600px;
   padding: 10px;
   border-radius: 5px;
   background-color: rgba(207, 208, 125, 0.533);
   border: 1px solid rgba(56, 8, 8, 0.199);
-  font-size: 21px;
+  font-size: 18px;
   letter-spacing: 3px;
 }
 

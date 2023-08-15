@@ -69,12 +69,12 @@ const Card = ({
       setIsFavorite(false);
     } else {
       await dispatch(addFavorite(id, userId));
-       // Seteo Favorite a true si la action que se despacha es addFavorite
+      // Seteo Favorite a true si la action que se despacha es addFavorite
       setIsFavorite(true);
     }
   };
 
- // Establecer el valor inicial de isFavorite según si el ID actual de la receta existe en allFavorites.
+  // Establecer el valor inicial de isFavorite según si el ID actual de la receta existe en allFavorites.
   useEffect(() => {
     setIsFavorite(allFavorites.some((favorite) => favorite.RecipeId === id));
   }, [id, allFavorites]);
@@ -94,6 +94,14 @@ const Card = ({
         <Link to={`/detail/${id}`} style={{ textDecoration: "none" }}>
           <h2 className={styles.card_title}>{title}</h2>
           <h2 className={styles.text_price}>$ {pricePerServing}</h2>
+          {/* {vegan ? <h3 className={styles.card_text}>Vegan</h3> : ""}
+          {vegetarian ? <h3 className={styles.card_text}>Vegetarian</h3> : ""}
+          {glutenFree ? <h3 className={styles.card_text}>Gluten Free</h3> : ""}
+          {veryPopular ? (
+            <h3 className={styles.card_text}>Popular</h3>
+          ) : (
+            <h3 className={styles.card_text}>Exotic</h3>
+          )} */}
         </Link>
       </div>
     </div>

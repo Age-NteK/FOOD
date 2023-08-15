@@ -21,7 +21,7 @@ const { Op } = require("sequelize");
 const getDietByName = async (req, res) => {
   try {
     const { name } = req.query;
-    console.log(req.body)
+    console.log(req.query)
 
     const searchDiet = await Diet.findAll({
       where: {
@@ -31,6 +31,10 @@ const getDietByName = async (req, res) => {
         ],
       },
     });
+
+    if(!searchDiet) {
+      res.status(400).send("Diet Not Found")
+    }
 
     if (searchDiet) {
       res.status(200).json({searchDiet});

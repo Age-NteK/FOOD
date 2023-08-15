@@ -43,7 +43,7 @@ const Mydiets = () => {
           <h1 className={styles.mydiets_h2}>My diets</h1>
           {/* <p>User ID: {userId}</p> */}
           {myDiets &&
-            myDiets.map((diet) => (
+            myDiets?.map((diet) => (
               <div key={diet.id} className={styles.mydiet_items}>
                 {/* <p>ID: {diet.id}</p> */}
                 {!(dietToEdit === diet.id) ? (

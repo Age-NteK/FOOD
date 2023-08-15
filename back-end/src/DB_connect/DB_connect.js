@@ -72,7 +72,7 @@ const DB_connect = async () => {
     }, []);
 
     // Crear las recetas en la tabla Recipe
-    await Recipe.bulkCreate(uniqueRecipes);
+    await Recipe.findOrCreate(uniqueRecipes);
 
     // Obtener todas las dietas de todas las recetas
     const allDiets = uniqueRecipes.reduce((diets, recipe) => {
@@ -88,7 +88,7 @@ const DB_connect = async () => {
     const uniqueDiets = new Set(allDiets);
 
     // Crear las dietas en la tabla Diet si aún no existen
-    await Diet.bulkCreate(
+    await Diet.findOrCreate(
       Array.from(uniqueDiets).map((diet) => ({ name: diet }))
     );
 
@@ -97,7 +97,6 @@ const DB_connect = async () => {
     console.log("An error occurred:", error.message);
   }
 };
-
 
 /*
 ! Exporto la función DB_connect.*/

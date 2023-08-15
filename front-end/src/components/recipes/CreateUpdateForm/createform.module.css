@@ -1,6 +1,6 @@
 .create_img {
   background-image: url("../../../Images/CreateRecipe.jpg");
-  background-size: contain;
+  background-size: cover;
   min-height: 100%;
   display: grid;
   justify-content: center;
@@ -11,19 +11,18 @@
 
 .create_form_container {
   grid-column: 2;
-  height: 100%;
+  height: 100vh;
 }
 
 .create_form {
   border: 1px solid rgba(230, 239, 97, 0.996);
-  min-width: 800px;
+  /* min-width: 800px; */
   background-color: rgba(0, 0, 0, 0.768);
-  min-height: 100%;
-  border-radius: 20px;
-  gap: 10px;
+  min-height: 96.1%;
+  gap: 5px;
   display: flex;
   flex-direction: column; /* Apilar elementos verticalmente */
-  justify-content: start; /* Centrar elementos verticalmente */
+  justify-content: center; /* Centrar elementos verticalmente */
   align-items: center; /* Centrar elementos horizontalmente */
   margin-top: 40px;
 }
@@ -32,9 +31,9 @@
   min-height: 100%;
   text-align: center;
   border-radius: 5px;
-  margin-bottom: 10px;
-  font-size: 90px;
-  color: rgba(230, 239, 97, 0.996);
+  margin-bottom: 60px;
+  font-size: 70px;
+  color: rgba(238, 255, 5, 0.996);
   background-color: rgba(1, 1, 1, 0.955);
   border: 1px solid rgba(230, 239, 97, 0.996);
 }
@@ -53,7 +52,7 @@
   display: inline;
   margin-top: 30px;
   min-height: 50px;
-  padding: 13px;
+  padding: 10px;
   min-width: 250px;
   border-radius: 5px;
   font-size: 20px;
@@ -66,6 +65,7 @@
   border: none;
   color: rgb(36, 33, 6);
   background-color: rgb(246, 255, 0);
+  box-shadow: 0 0 20px yellow;
   cursor: pointer;
   box-sizing: border-box;
 }

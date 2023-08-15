@@ -1,14 +1,14 @@
 .fav_img {
   background-image: url("../../../Images/Cucharas.jpg");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .fav {
-  border: 2px solid rgb(63, 7, 7); 
-  margin-top: 60px;
+  border: 2px solid rgb(63, 7, 7);
+  margin-top: 50px;
   letter-spacing: 3px;
-  font-size: 60px;
+  font-size: 50px;
   background-color: rgba(55, 7, 7, 0.922);
   color: rgb(249, 207, 207);
   min-width: 100%;
@@ -24,7 +24,8 @@
   /* margin: 0 30px; */
   font-size: 25px;
   position: relative;
-
+  display: grid;
+  place-items: center;
 }
 
 .fav_container::before {
@@ -39,13 +40,15 @@
 }
 
 .fav_center {
-  border: 2px solid rgb(63, 7, 7); 
+  border: 2px solid rgb(63, 7, 7);
   padding: 40px;
   background-color: rgba(55, 7, 7, 0.398);
   /* border: 3px solid black; */
   display: grid;
-  grid-template-columns: repeat(5, minmax(400px, 1fr));
-  gap: 80px;
+  place-items: center;
+  grid-template-columns: repeat(4, minmax(400px, 1fr));
+  gap: 30px;
+  max-width: 100%;
   margin-top: 10px;
 }
 
@@ -54,13 +57,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
   padding: 25px;
   border-radius: 5px;
   /* border: 2px solid rgb(0, 0, 0); */
-  box-shadow: 0 0px 5px 5px  rgba(243, 201, 201, 0.812);
+  box-shadow: 0 0px 5px 5px rgba(243, 201, 201, 0.812);
   max-height: 400px;
   overflow: hidden;
 }

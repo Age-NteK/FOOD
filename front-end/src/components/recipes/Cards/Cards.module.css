@@ -13,7 +13,7 @@
   grid-template-columns: repeat(3, 500px);
   justify-content: center;
   text-align: center;
-  height: 100vh;
+  min-height: 100%;
   grid-row-start: 2;
   grid-row-end: span 3;
   grid-column-start: 2;
@@ -46,8 +46,8 @@
 .cards_title {
   width: 100%;
   text-align: center;
-  font-size: 90px;
-  margin-top: 60px;
+  font-size: 60px;
+  margin-top: 40px;
   margin-bottom: 5px;
   color: rgb(245, 255, 234);
   background-color: rgba(105, 177, 28, 0.712);
@@ -55,25 +55,25 @@
 
 .pagination {
   display: flex;
-  align-items: center;
-  font-size: 22px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  text-align: center;
+  align-items: start;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: start;
   font-family: "Pacifico", cursive;
   color: rgba(16, 29, 4, 0.829);
 }
 
-.pagination_filter {
-  margin-left: 3.5%;
-  margin-right: 30%;
+.search {
+  margin-right: 26%; 
+  margin-left: 95px;
   letter-spacing: 2px;
   background-color: rgba(196, 226, 166, 0.829);
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 10px;
-  padding: 5px;
-  width: 250px;
+  padding: 3px;
+  width: 200px;
   color: rgba(16, 29, 4, 0.829);
 }
 
@@ -85,11 +85,12 @@
   letter-spacing: 2px;
   background-color: rgba(196, 226, 166, 0.829);
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 3px;
   width: 150px;
   margin-right: 20px;
+  margin-bottom: 20px;
   color: rgba(16, 29, 4, 0.829);
 }
 
@@ -98,13 +99,13 @@
 }
 
 .pagination_next {
-  margin-left: 20px;
+  margin-left: 10px;
   letter-spacing: 2px;
   background-color: rgba(196, 226, 166, 0.829);
   border: none;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 3px;
   width: 150px;
   color: rgba(16, 29, 4, 0.829);
 }
@@ -119,7 +120,7 @@
 
 /* New styles for when the filters button is clicked */
 .cards_all.clicked {
-  grid-template-columns: 20% 60%; /* Set the cards container to occupy 80% and the navbar 20% */
+  grid-template-columns: 20% 75%; /* Set the cards container to occupy 80% and the navbar 20% */
 }
 
 .cards_card.clicked {

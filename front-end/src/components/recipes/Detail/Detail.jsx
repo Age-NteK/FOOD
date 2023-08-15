@@ -60,7 +60,7 @@ const Detail = () => {
               ))}
             </ul>
           ) : (
-            <p className={styles.detail_nonstep}>
+            <p className={styles.detail_step}>
               There are no steps available for this recipe at the moment.
             </p>
           )}

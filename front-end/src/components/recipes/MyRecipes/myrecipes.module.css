@@ -2,8 +2,6 @@
   background-color: rgb(180, 91, 113);
 }
 
-
-
 .myrecipes_container {
   display: grid;
   justify-content: end;
@@ -22,10 +20,9 @@
 }
 
 .myrecipes_center {
-  border: 3px solid rgb(164, 79, 100);
   margin-top: 50px;
   padding: 20px;
-  margin-left: -9px;
+  margin-left: -8px;
   background-color: rgba(0, 0, 0, 0.133);
   color: white;
   text-align: center;
@@ -50,7 +47,7 @@ rgb(255, 102, 102);
   font-weight: bold;
   color: rgb(245, 178, 195);
   background-color: rgb(72, 10, 26);
-  font-size: 90px;
+  font-size: 70px;
   letter-spacing: 5px;
   padding: 8px;
 }
@@ -71,6 +68,7 @@ rgb(255, 102, 102);
 .myrecipes_item:hover {
   color:  rgb(63, 10, 23);
   background-color: rgb(254, 215, 224);
+  box-shadow: 0 0 20px rgb(63, 10, 23);
 }
 
 .myrecipes_content {
@@ -79,14 +77,6 @@ rgb(255, 102, 102);
   align-items: center;
   width: 100%;
 }
-
-
-/*
-
-  color:  rgb(145, 24, 54);
-  background-color: rgb(249, 189, 204);
-
-*/
 
 .myrecipes_content:hover {
   color:  rgb(63, 10, 23);
@@ -111,7 +101,7 @@ rgb(255, 102, 102);
 }
 
 .myrecipes_title_recipe {
-  margin-left: 10px;
+  margin-left: 25px;
   font-size: 35px;
   color: rgb(63, 10, 23);
 }

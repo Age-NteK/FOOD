@@ -5,20 +5,35 @@ const About = () => {
     <div className={styles.about_container}>
       <div className={styles.about_img}> </div>
       <div className={styles.about_description}>
-        <h3 className={styles.about_title}>About</h3>
+        <h4 className={styles.about_name}>Macarena Castillo Ruiz</h4>
+        <h4 className={styles.about_dev}>Desarrolladora Full Stack</h4>
         <div className={styles.about_container_p}>
           <p className={styles.about_p}>
-            ¡Hola! Soy Macarena Castillo Ruiz, una apasionada desarrolladora
-            Full Stack con un enfoque en la creación de soluciones web
-            innovadoras. Mi pasión por la tecnología y mi curiosidad innata me
-            han llevado a explorar diversas tecnologías y lenguajes de
-            programación para desarrollar aplicaciones completas y funcionales.
+            Dedicada desarrolladora Full Stack con un enfoque centrado en la
+            creación de soluciones web innovadoras. Poseo una experiencia en el
+            desarrollo de aplicaciones tanto en el ámbito del cliente como en el
+            servidor. Mi capacidad para colaborar en equipos ágiles ha permitido
+            la entrega de soluciones de alta calidad. Mi especialización se
+            centra en tecnologías Frontend como HTML5, CSS3 y JavaScript, así
+            como en la maestría de librerías como React.js. Mi destreza en
+            tecnologías del servidor, incluyendo Node.js y Express.js, está
+            respaldada por un conocimiento realmente sólido.
           </p>
           <p className={styles.about_p}>
-            He adquirido un sólido conocimiento en el desarrollo de aplicaciones
-            tanto en el lado del cliente como en el servidor. He trabajado en
-            entornos ágiles, colaborando con equipos multidisciplinarios para
-            entregar soluciones de alta calidad en plazos ajustados.
+            Experiencia | Henry |
+           01/03/2023 - [Fecha de Finalización] - Desarrollo de
+            aplicaciones web completas y funcionales en entornos ágiles. -
+            Colaboración con equipos multidisciplinarios para entregar
+            soluciones de alta calidad. - Uso de tecnologías Frontend como
+            HTML5, CSS3 y JavaScript para crear interfaces de usuario
+            atractivas. - Implementación de librerías y frameworks populares
+            como React.js. - Construcción de APIs robustas y escalables
+            utilizando tecnologías del lado del servidor como Node.js y
+            Express.js. - Diseño y mantenimiento de sistemas de almacenamiento
+            de datos eficientes con bases de datos MySQL y PostgreSQL. - Gestión
+            de versiones y colaboración efectiva con Git, GitHub y GitLab. -
+            Solución creativa de problemas técnicos y enfrentamiento de
+            desafíos.
           </p>
           <p className={styles.about_p}>
             Mi experiencia en el desarrollo Frontend abarca el uso de

@@ -29,15 +29,16 @@
   padding: 5px;
   font-size: 17px;
   border: none;
-  color: rgb(206, 206, 90);
-  background-color: rgba(91, 91, 21, 0.768);
+  color: rgb(36, 33, 6);
+  background-color: rgba(218, 225, 17, 0.904);
   text-align: center;
 }
 
 .steps button:hover {
   border: none;
-  color: rgb(34, 34, 5);
-  background-color: rgb(136, 136, 28);
+  color: rgb(36, 33, 6);
+  background-color: rgb(246, 255, 0);
+  box-shadow: 0 0 15px yellow;
   cursor: pointer;
   box-sizing: border-box;
 }

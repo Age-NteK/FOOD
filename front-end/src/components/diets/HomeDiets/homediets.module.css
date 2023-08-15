@@ -20,14 +20,14 @@
   text-align: center; */
   place-items: center;
   max-width: 100%;
-  height: 100%; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  height: 100%; 
   display: grid;
 }
 .diets h2 {
   color: rgb(61, 45, 12);
   background-color: rgb(239, 174, 10);
   min-width: 100%;
-  font-size: 75px;
+  font-size: 60px;
   margin-top: 45px;
   text-align: center;
 }
@@ -45,7 +45,7 @@
   align-items: center;
   background-color: rgba(255, 184, 3, 0.338);
   min-height: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .diet_item:hover {
@@ -55,7 +55,7 @@
 
 .diet_name {
   margin-left: 13px;
-  font-size: 35px;
+  font-size: 28px;
   color: rgb(39, 29, 5);
 }
 

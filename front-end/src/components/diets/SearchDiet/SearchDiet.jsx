@@ -9,8 +9,7 @@ const SearchDiet = () => {
 
   const handleChange = (e) => {
     setName(e.target.value);
-
-    e.target.value
+   (e.target.value)
     ? dispatch(getDietByName(e.target.value))
     : dispatch(reset());
   };

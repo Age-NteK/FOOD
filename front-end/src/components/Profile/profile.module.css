@@ -28,14 +28,14 @@
 }
 
 .profile_title {
-  margin-top: 48px;
+  margin-top: 40px;
   letter-spacing: 5px;
-  font-size: 85px;
+  font-size: 70px;
   border-bottom: 2px solid  rgb(103, 71, 199);
   background-color: rgba(35, 17, 89, 0.897);
   color: rgba(230, 223, 255, 0.945);
   padding: 10px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .profile_label {
@@ -45,7 +45,7 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 20px;
   color: rgb(244, 240, 255);
 }
 
@@ -82,15 +82,16 @@
   border-radius: 5px;
   font-size: 20px;
   border: none;
-  background-color: rgb(213, 200, 252);
+  background-color: rgb(157, 139, 211);
   color: rgb(15, 8, 41);
 }
 
 .profile_btn:hover {
   border: none;
-  outline: 2px inset rgb(21, 8, 58);
+  /* outline: 2px inset rgb(21, 8, 58); */
   color: rgb(11, 5, 34);
-  background-color: rgb(157, 139, 211);
+  box-shadow: 0 0 20px rgb(228, 219, 255);
+  background-color: rgb(202, 187, 248);
   color: rgb(15, 8, 41);
   cursor: pointer;
   box-sizing: border-box;
