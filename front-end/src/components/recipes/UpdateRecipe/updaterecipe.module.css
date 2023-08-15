@@ -1,0 +1,126 @@
+.update_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  grid-template-columns: 1fr 1fr; /* Divide the container into two columns of equal width */
+  gap: 0px;
+}
+
+.update_img {
+  background-image: url("../../../Images/updateMedia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  grid-column: 1;
+}
+
+.update_form {
+  /* margin-top: 50px; */
+  height: 100%;
+  justify-content: center;
+  margin-left: -9px;
+  background-color:rgba(206, 206, 90, 0.538);
+  text-align: center;
+  grid-column: 2; /* Place the form in the second column */
+}
+
+
+
+.update_input {
+  height: 33px;
+  min-width: 600px;
+  margin-top: 20px;
+  background-color: rgba(207, 208, 125, 0.533);
+  border: none;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid rgba(56, 8, 8, 0.199);
+  outline: none;
+}
+
+
+
+.update_title {
+  min-width: 100%;
+  justify-content: start;
+  text-align: center;
+  font-size: 90px;
+  color: rgb(206, 206, 90);
+  background-color: rgb(72, 72, 15);
+  margin-bottom: 30px;
+
+  /* Añade la transformación para desplazar 100px hacia arriba */
+  /* transform: translateY(-40px); */
+}
+
+.update_subtitle {
+  text-align: center;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:9px;
+  color: rgba(18, 13, 1, 0.955);
+  background-color: rgb(206, 206, 90);
+  /* border:1px solid black; */
+}
+
+.update_add_remove_btn {
+  display: inline-block;
+  letter-spacing: 2px;
+  color: rgb(206, 206, 90);
+  background-color: rgba(91, 91, 21, 0.768);
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 3px;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.update_add_remove_btn:hover {
+  color: rgb(34, 34, 5);
+  background-color: rgb(136, 136, 28);
+}
+
+
+.update_diet_btn {
+  display: inline;
+  letter-spacing: 2px;
+  border: none;
+  padding: 3px;
+  color: rgb(206, 206, 90);
+}
+
+.update_diet_btn button {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-right:10px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(34, 34, 5);
+  background-color: rgb(136, 136, 28);
+  padding: 3px;
+}
+
+.update_update_btn {
+  margin-top: 30px;
+  min-height: 40px;
+  padding: 13px;
+  max-width: 200px;
+  border-radius: 5px;
+  font-size: 21px;
+  border: none;
+  color: rgb(206, 206, 90);
+  background-color: rgba(46, 46, 9, 0.768);
+}
+
+.update_update_btn:hover {
+  color: rgb(34, 34, 5);
+  background-color: rgb(136, 136, 28);
+}

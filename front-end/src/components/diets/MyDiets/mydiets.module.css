@@ -1,0 +1,108 @@
+/* styles.module.css */
+
+.mydiets_img {
+  background-image: url("../../../Images/MyDiets.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  display: grid;
+}
+
+.mydiets {
+  height: 100vh;
+  min-width: 100%;
+  display: grid;
+  justify-content: end;
+  text-align: center;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.086);
+}
+
+.mydiets_center {
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.522);
+  height: 100vh;
+}
+
+.mydiets_h2 {
+  font-weight: bold;
+  color: #f6f4eb;
+  background-color: #113248;
+  min-width: 100%;
+  font-size: 90px;
+  margin-top: 10px;
+}
+
+/* 
+#F6F4EB; 
+#91C8E4; 
+#749BC2; 
+#4682A9; 
+ */
+
+.mydiet_items {
+  /* border: 5px solid rgb(17, 0, 255); */
+  background-color: #4681a951;
+  padding: 10px;
+  position: relative;
+}
+
+.mydiet_item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  min-width: 50%;
+  height: 70px;
+  border: 5px solid white;
+  background-color: #4681a9aa;
+  min-height: 50px;
+  margin-bottom: 40px;
+}
+
+.mydiet_item:hover {
+  background-color: #2a5b7bce;
+  color: black;
+}
+
+.mydiet_name {
+  font-size: 35px;
+  color: #caf4f3;
+  min-width: 600px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.mydiet_input {
+  /* position: absolute;
+  margin-left: 0px; */
+  height: 40px;
+  min-width: 600px;
+  margin: 8px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: rgb(220, 251, 253);
+  border-bottom: 1px solid rgb(95, 27, 27);
+  outline: none;
+}
+
+.mydiets_btn {
+  /* margin-left: 0px; */
+  /* display: grid;
+  justify-content: end;
+  text-align: end; */
+  display: grid;
+  justify-content: end;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #000000;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  /* display: flex;
+  align-items: start; */
+}

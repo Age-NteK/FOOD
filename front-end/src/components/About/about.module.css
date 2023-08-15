@@ -1,0 +1,56 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 38% 62%;
+  min-height: 100vh; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  min-width: 100%;
+}
+
+.about_img {
+  background-image: url("../../Images/About.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  grid-column: 1;
+}
+
+.about_description {
+  margin-top: 50px;
+  grid-column: 2; /* Colocar el div "center" en la segunda columna */
+  background-color: rgba(243, 184, 33, 0.481);
+  color: rgb(45, 6, 6);
+  /* justify-content: center; 
+  text-align: center; */
+  place-items: start;
+  max-width: 100%;
+  height: 100%; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  display: grid;
+}
+
+/* .about_description p {
+  max-width: 100%;
+  overflow-wrap: break-word;
+} */
+
+.about_title {
+  letter-spacing: 15px;
+  font-size: 120px;
+  background-color: rgba(255, 140, 0, 0.848);
+  min-width: 100%;
+  text-align: center;
+  color: rgb(248, 224, 164);
+}
+
+.about_container_p {
+  /* font-family: "Pacifico", cursive; */
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin-top: -100px;
+}
+
+.about_p {
+  margin-top: 30px;
+  font-size: 26px;
+  /* font-weight: bold; */
+}

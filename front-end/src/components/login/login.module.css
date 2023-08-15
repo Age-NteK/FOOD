@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0;
+  transition: width 3s;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: px solid white;
+}
+
+.login_container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(250, 227, 146);
+}
+.foodie_container {
+  background-image: url("../../Images/Login.jpg");
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.foddie {
+  font-size: 220px;
+  color: rgb(255, 248, 224);
+}
+
+.heaven {
+  font-size: 205px;
+  color: rgba(201, 201, 75, 0.616);
+}
+
+.welcome_container {
+  overflow: auto;
+}
+
+.welcome {
+  font-size: 50px;
+  color: rgba(24, 24, 2, 0.959);
+}
+.login_form {
+  position: absolute;
+  top: 150px;
+  height: 380px;
+  margin-top: -120px;
+  border-radius: 5px;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background-color: rgba(35, 128, 35, 0.432);
+  font-size: 18px;
+}
+
+.login_form::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+
+.login_input {
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+  height: 35px;
+  width: 390px;
+  color: rgb(5, 41, 5);
+  font-size: 20px;
+  border: none;
+  background-color: rgb(238, 238, 200);
+  outline: none;
+}
+
+.login_input:hover {
+  background-color: rgb(245, 245, 219);
+}
+
+.login_input::placeholder {
+  color: rgba(0, 0, 0, 0.438);
+}
+
+.login_container_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.login_btn {
+  margin-top: -10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: black;
+  background-color: rgb(212, 231, 128);
+}
+.login_btn:hover {
+  border: 2px inset rgb(223, 241, 141);
+  color: rgb(37, 31, 8);
+  background-color: rgb(238, 250, 185);
+  /* box-shadow: 0 0 6px 2px rgb(206, 206, 106); */
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.login_registermsg {
+  font-size: 19px;
+  color: rgb(6, 48, 6);
+}

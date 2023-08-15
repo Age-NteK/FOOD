@@ -1,0 +1,41 @@
+.health {
+  display: flex; /* Utilizamos flexbox para organizar los elementos */
+  align-items: center; /* Centramos verticalmente los elementos */
+  background-color: rgba(207, 208, 125, 0.533);
+  min-width: 600px;
+  margin-top: 20px;
+  height: 33px;
+  border-radius: 4px;
+}
+
+.health_label {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding: 12px;
+  margin-right: 10px; /* Empuja el label a la izquierda */
+}
+
+.health_range {
+  /* position: relative; */
+  margin-left: 300px;
+  margin-right: 30px;
+}
+
+/* .health_range input:hover {
+  background-color: rgba(224, 226, 129, 0.949);
+}
+
+.health_health__jDi2d:hover {
+  background-color: rgba(224, 226, 129, 0.949);
+} */
+
+.health_number {
+  /* position: absolute; */
+  /* margin-left: 892px; */
+  /* left: calc(100% - 10px); */
+
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}

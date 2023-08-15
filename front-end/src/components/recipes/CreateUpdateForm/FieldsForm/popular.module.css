@@ -1,0 +1,37 @@
+.popular {
+  display: flex; /* Utilizamos flexbox para organizar los elementos */
+  align-items: center; /* Centramos verticalmente los elementos */
+  background-color: rgba(207, 208, 125, 0.533);
+  min-width: 600px;
+  max-width: 600px;
+  margin-top: 20px;
+  height: 33px;
+  border-radius: 4px;
+}
+
+.popular input {
+  height: 27px;
+  text-align: end;
+  width: 20px;
+  background-color: rgba(207, 208, 125, 0.533);
+}
+
+.popular input:hover {
+  background-color: rgba(216, 218, 135, 0.809);
+}
+
+.popular label {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding: 12px;
+  margin-right: 10px; /* Empuja el label a la izquierda */
+}
+
+.popular input {
+  margin-left: 440px; /* Empuja el input a la derecha */
+}
+
+.popular:hover {
+  background-color: rgba(224, 226, 129, 0.949);
+}

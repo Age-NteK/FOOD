@@ -1,0 +1,17 @@
+.create_title input {
+  height: 33px;
+  min-width: 600px;
+  border: none;
+  text-align: center;
+  font-size: 19px;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(207, 208, 125, 0.533);
+  border-bottom: 1px solid rgba(56, 8, 8, 0.199);
+  outline: none;
+} 
+
+
+.create_title:hover {
+  background-color: rgba(216, 218, 135, 0.809);
+}

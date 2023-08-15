@@ -1,0 +1,39 @@
+html {
+  background-color: rgb(237, 255, 237);
+}
+
+.topbar_cont {
+  width: 100%; /* Ahora el componente ocupará el 100% del ancho disponible */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* Centra verticalmente los elementos en la barra */
+}
+
+.topbar_container {
+  height: 50px;
+  z-index: 2;
+  position: fixed;
+  top: 0px; /* Fija la barra en la parte superior */
+  left: 0; /* Fija la barra en el borde izquierdo */
+  right: 0; /* Fija la barra en el borde derecho */
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente en la barra */
+}
+
+.topbar_btn {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background-color: black;
+  color: rgb(155, 155, 155);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 23px;
+}
+
+.topbar_btn:hover {
+  color: rgb(255, 255, 255);
+}

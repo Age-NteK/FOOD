@@ -1,0 +1,46 @@
+.creatediet_container {
+  /* ...otros estilos ... */
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.creatediet_container input {
+  /* ...estilos del input ... */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 40px;
+  min-width: 597px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: rgb(32, 22, 3);
+  border: 1px solid rgb(173, 131, 33);
+  background-color: rgba(242, 234, 213, 0.826);
+}
+
+.button_container {
+  border: 1px solid rgb(236, 210, 150);
+  background-color: rgb(239, 174, 10);
+  color: rgb(30, 21, 4);
+  height: 45px;
+  border-radius: 10px;
+  display: flex;
+  width: 150px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 24px;
+ 
+}
+
+.button_container:hover {
+  background-color: rgba(238, 192, 83, 0.661);
+  color: rgb(32, 22, 3);
+  outline: 1px inset rgb(50, 38, 7);
+}

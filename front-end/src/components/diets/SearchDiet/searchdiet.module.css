@@ -1,0 +1,14 @@
+.searchdiet {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 40px;
+  min-width: 600px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: rgb(32, 22, 3);
+  border: 1px solid rgb(173, 131, 33);
+  background-color: rgba(242, 234, 213, 0.826);
+}

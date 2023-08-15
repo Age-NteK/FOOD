@@ -1,0 +1,101 @@
+.create_img {
+  background-image: url("../../../Images/CreateRecipe.jpg");
+  background-size: contain;
+  min-height: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  grid-template-columns: 50% 50%;
+}
+
+.create_form_container {
+  grid-column: 2;
+  height: 100%;
+}
+
+.create_form {
+  border: 1px solid rgba(230, 239, 97, 0.996);
+  min-width: 800px;
+  background-color: rgba(0, 0, 0, 0.768);
+  min-height: 100%;
+  border-radius: 20px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column; /* Apilar elementos verticalmente */
+  justify-content: start; /* Centrar elementos verticalmente */
+  align-items: center; /* Centrar elementos horizontalmente */
+  margin-top: 40px;
+}
+.create_title {
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 90px;
+  color: rgba(230, 239, 97, 0.996);
+  background-color: rgba(1, 1, 1, 0.955);
+  border: 1px solid rgba(230, 239, 97, 0.996);
+}
+
+::placeholder {
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+.create_btn {
+  display: flex;
+  gap: 15px;
+}
+
+.create_btn button {
+  display: inline;
+  margin-top: 30px;
+  min-height: 50px;
+  padding: 13px;
+  min-width: 250px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+  color: rgb(36, 33, 6);
+  background-color: rgba(218, 225, 17, 0.904);
+}
+
+.create_btn button:hover {
+  border: none;
+  color: rgb(36, 33, 6);
+  background-color: rgb(246, 255, 0);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.create_p {
+  color: rgb(255, 0, 0);
+  font-size: 19px;
+} 
+
+/* .create_btn {
+  text-align: center;
+}
+
+.create_btn button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+Estilos para el botón habilitado
+.create_btn button:not(:disabled) {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Estilos para el botón deshabilitado */
+/* .create_btn button:disabled {
+  background-color: #ccc;
+  color: #999;
+  cursor: not-allowed;
+}  */
+
+

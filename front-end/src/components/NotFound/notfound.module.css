@@ -1,0 +1,69 @@
+.notfound_container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  min-height: 100vh; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  min-width: 100%;
+ 
+}
+
+.notfound_img {
+  background-image: url("../../Images/NotFound.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  grid-column: 1;
+}
+
+.notfound_description {
+  grid-column: 2; /* Colocar el div "center" en la segunda columna */
+  background-color: rgba(0, 0, 0, 0.941);
+  color: rgb(255, 231, 170);
+  
+  /* justify-content: center; 
+  text-align: center; */
+  place-items: center;
+  max-width: 100%;
+  height: 100%; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  display: grid;
+}
+
+.notfound_text {
+  font-size: 40px;
+  margin-top: 10px;
+  /* padding: 50px; */
+  border: 2px solid rgb(255, 168, 69);
+  display: grid;
+  place-items: center;
+}
+
+.notfound_title {
+  min-width: 100%;
+  font-size: 80px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 140, 0, 0.798);
+  border: 2px solid rgb(255, 168, 69);
+  text-align: center;
+}
+
+.notfound_p {
+  font-family: "Pacifico";
+  font-size: 34px;
+  padding: 20px;
+}
+
+.notfound_btn {
+  height: 60px;
+  width: 230px;
+  background-color: rgba(255, 140, 0, 0.79);
+  font-family: "Pacifico";
+  font-size: 28px;
+  color: rgb(255, 242, 209);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.notfound_btn:hover {
+  background-color: rgb(255, 157, 0);
+  outline: 2px inset rgb(255, 168, 69);
+}

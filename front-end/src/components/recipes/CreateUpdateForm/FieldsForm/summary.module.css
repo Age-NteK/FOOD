@@ -1,0 +1,21 @@
+.summary textarea {
+  min-width: 600px;
+  margin-top: 20px;
+  min-height: 200px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(207, 208, 125, 0.533);
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.summary textarea:hover {
+  background-color: rgba(244, 246, 134, 0.809);
+}
+
+.summary textarea::placeholder {
+  color: rgb(0, 0, 0);
+}

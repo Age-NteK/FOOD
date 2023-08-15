@@ -1,0 +1,142 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.card_container:hover .card_img {
+  filter: brightness(40%) blur(2px); /* Aquí aplicamos el filtro oscuro y el blur */
+  transform: scale(1.05);
+}
+
+.card_img {
+  min-height: 100%;
+  min-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: brightness(0.9);
+  transition: filter 0.8s, transform 0.7s;
+}
+
+.card_img::before {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s easy;
+}
+.card_title {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.text_container:hover {
+  opacity: 1;
+}
+
+.btn_fav {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 26px;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+
+.btn_del {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 25px;
+  background-color: rgba(240, 248, 255, 0);
+  border: none;
+}
+
+ .text_price {
+  color: rgb(255, 255, 254);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+/*
+.card_text {
+  color: rgb(223, 252, 211);
+  font-size: 30px;
+} */
+
+/* .btn_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: start;
+  opacity: 0;
+  transition: opacity 1s easy;
+  z-index: 2;
+}
+
+.btn_container:hover {
+  opacity: 1;
+} */
+
+/* .btn_container {
+position: relative;
+top: -160px;
+} */
+
+/* .card_container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card_container h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.card_container h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.card_container .tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_container .tag {
+  background-color: #f1f1f1;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.card_container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-right: 8px;
+} */

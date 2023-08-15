@@ -1,0 +1,18 @@
+.reset_btn {
+  color: rgb(235, 255, 234);
+  background-color: rgba(96, 157, 31, 0.993);
+  outline: none;
+  border: none;
+  font-size: 19px;
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.reset_btn:hover {
+  outline: 1px inset rgba(255, 255, 255, 0.884);
+  object-fit: cover;
+  background-color: rgba(54, 91, 13, 0.993);
+  color: rgb(235, 255, 234);
+}

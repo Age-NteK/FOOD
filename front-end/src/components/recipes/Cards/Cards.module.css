@@ -1,0 +1,152 @@
+.cards_container {
+  display: grid;
+}
+
+.cards_all {
+  display: grid;
+  grid-template-columns: 0% 100%;
+  font-family: "Pacifico", cursive;
+}
+
+.cards_card {
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  grid-row-start: 2;
+  grid-row-end: span 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  gap: 20px;
+  /* margin-left: -210px; */
+}
+
+.navbar {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  display: block;
+  text-align: center;
+  opacity: 0; /* Initially set opacity to 0 */
+  visibility: hidden; /* Initially hide the navbar */
+  margin-left: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.cards_title {
+  width: 100%;
+  text-align: center;
+  font-size: 90px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  color: rgb(245, 255, 234);
+  background-color: rgba(105, 177, 28, 0.712);
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: rgba(16, 29, 4, 0.829);
+}
+
+.pagination_filter {
+  margin-left: 3.5%;
+  margin-right: 30%;
+  letter-spacing: 2px;
+  background-color: rgba(196, 226, 166, 0.829);
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 250px;
+  color: rgba(16, 29, 4, 0.829);
+}
+
+.pagination_filter:hover {
+  background-color: rgba(133, 175, 91, 0.829);
+}
+
+.pagination_prev {
+  letter-spacing: 2px;
+  background-color: rgba(196, 226, 166, 0.829);
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+  margin-right: 20px;
+  color: rgba(16, 29, 4, 0.829);
+}
+
+.pagination_prev:hover {
+  background-color: rgba(133, 175, 91, 0.829);
+}
+
+.pagination_next {
+  margin-left: 20px;
+  letter-spacing: 2px;
+  background-color: rgba(196, 226, 166, 0.829);
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+  color: rgba(16, 29, 4, 0.829);
+}
+
+.pagination_next:hover {
+  background-color: rgba(133, 175, 91, 0.829);
+}
+
+.nav_btn:hover {
+  background-color: rgba(133, 175, 91, 0.829);
+}
+
+/* New styles for when the filters button is clicked */
+.cards_all.clicked {
+  grid-template-columns: 20% 60%; /* Set the cards container to occupy 80% and the navbar 20% */
+}
+
+.cards_card.clicked {
+  grid-template-columns: repeat(
+    2,
+    20px
+  ); /* Adjust the card size when filters are clicked */
+}
+
+.cards_all.clicked .navbar {
+  display: block;
+  width: 85%;
+  text-align: center;
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.cards_all.noClicked .navbar {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Adjust cards width when the navbar is not visible */
+.cards_card.noClicked {
+  grid-template-columns: repeat(1, 100%); /* Set cards to occupy 100% width */
+}
+
+/* .cards_all .navbar {
+  display: none;
+} */
