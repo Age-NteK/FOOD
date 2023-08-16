@@ -195,7 +195,7 @@ const UpdateRecipe = () => {
     });
   };
 
-/*
+  /*
 ! ONCHAGE
 * la función onChange maneja los cambios en los campos del formulario y actualiza el estado formData en consecuencia. También se encarga de la conversión de tipos para los campos numéricos y booleanos, y llama a la función updateSelectedDiets cuando se modifican las dietas seleccionadas.
 
@@ -245,7 +245,6 @@ const UpdateRecipe = () => {
     console.log("formData:", formData);
   };
 
-
   /*
 ! HANDLESUBMIT
 * handleSubmit se encarga de enviar la solicitud para actualizar la receta al backend, mostrar un mensaje en la consola y redirigir al usuario a la página de "mis recetas" después de una actualización exitosa.
@@ -269,7 +268,7 @@ const UpdateRecipe = () => {
     dispatch(deleteDietOfOneRecipe(dietName, id));
   };
 
-/*
+  /*
 ! Renderización del componente 
  ? Renderizado del formulario de actualización de recetas. 
  ? Se muestran los campos actuales de la receta, permitiendo su edición
@@ -303,6 +302,7 @@ const UpdateRecipe = () => {
         />
 
         <div>
+          <h2 className={styles.update_subtitle}>Present Steps</h2>
           <button
             type="button"
             onClick={addStep}

@@ -37,7 +37,7 @@ const getMyDiets = async (req, res) => {
     }
 
     // Las dietas asociadas al usuario estarán disponibles en user.Diets
-    console.log("Dietas asociadas al usuario:", user.Diets);
+    // console.log("Dietas asociadas al usuario:", user.Diets);
     res.json({ userDiets: user.Diets });
   } catch (error) {
     console.error("Error al obtener las dietas del usuario:", error);

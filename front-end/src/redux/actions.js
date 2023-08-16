@@ -9,6 +9,7 @@ import {
   USER_PROFILE,
   UPDATE_USER,
   GET_MY_RECIPES,
+  DELETE_USER,
 
   // ? RECIPES
   GET_ALL_RECIPES,
@@ -177,6 +178,23 @@ export const getMyRecipes = (userId) => async (dispatch) => {
   }
 };
 
+// * DELETE USER
+// ? PROFILE USER
+export const deleteUser = (userId) => async (dispatch) => {
+  try {
+    const { data } = await axios.delete(`${URL_USERS}/${userId}`);
+    console.log(data);
+    if (data) {
+      dispatch({
+        type: DELETE_USER,
+        payload: data,
+      });
+    }
+  } catch (error) {
+    handleError(error);
+  }
+};
+
 // ! ------------------------------------------------------------------
 // ! RECIPES
 // ! ------------------------------------------------------------------
@@ -186,11 +204,11 @@ export const getMyRecipes = (userId) => async (dispatch) => {
 export const getAllRecipes = () => async (dispatch) => {
   try {
     const { data } = await axios.get(URL_RECIPES);
-    console.log(data);
+    console.log(data.slice(0, 200));
     if (data.length) {
       dispatch({
         type: GET_ALL_RECIPES,
-        payload: data.slice(0, 40),
+        payload: data.slice(0, 200),
       });
     }
   } catch (error) {

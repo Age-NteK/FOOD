@@ -35,32 +35,29 @@ const validateCreateRecipe = (formData) => {
   }
 
   // Validate the 'veryPopular' field (assuming it's a boolean)
-  if (formData.veryPopular !== true && formData.veryPopular !== false) {
-    errors.veryPopular = "Very Popular must be a boolean value";
-    console.log(errors.veryPopular);
-  }
+  // if (formData.veryPopular !== true && formData.veryPopular !== false) {
+  //   errors.veryPopular = "Very Popular must be a boolean value";
+  //   console.log(errors.veryPopular);
+  // }
 
   // Validate the 'healthScore' field (assuming it's a number)
-  if (
-    isNaN(formData.healthScore) ||
-    formData.healthScore < 0 ||
-    formData.healthScore > 100
-  ) {
-    console.log(
-      "Health Score Error: Health score must be a number between 0 and 100"
-    );
-    errors.healthScore = "Health score must be a number between 0 and 100";
+  if (formData.healthScore === 1) {
+    errors.healthScore = "You must enter a Health Score";
   }
 
   // Validate the 'pricePerServing' field (assuming it's a number)
-  if (isNaN(formData.pricePerServing) || formData.pricePerServing < 0) {
+  if (formData.pricePerServing === 0) {
     errors.pricePerServing = "Price per serving must be a positive number";
   }
-
   // Validate the 'diets' field (assuming it's an array)
-  if (!Array.isArray(formData.diets) || formData.diets.length === 0) {
+  if (formData.diets.length === 0) {
     errors.diets = "You must select at least one diet";
   }
+
+  // Validate the 'steps' field
+  // if (formData.steps.length >= 1) {
+  //   errors.steps = "You must enter at least one Step";
+  // }
 
   return errors;
 };

@@ -4,7 +4,13 @@
 
 import { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { getUserProfile, updateUser, clean } from "../../redux/actions";
+import { useNavigate } from "react-router-dom";
+import {
+  getUserProfile,
+  updateUser,
+  clean,
+  deleteUser,
+} from "../../redux/actions";
 import styles from "./profile.module.css";
 
 /*
@@ -20,6 +26,7 @@ import styles from "./profile.module.css";
 
 const Profile = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const userProfile = useSelector((state) => state.userProfile);
   const userId = useSelector((state) => state.userId);
 
@@ -63,13 +70,37 @@ const Profile = () => {
 
     try {
       // Llamar a la acción updateUser con el ID y los datos actualizados
-      await dispatch(updateUser(userId, updatedData)); 
+      await dispatch(updateUser(userId, updatedData));
 
       console.log(`User ${formData.username} updated successfully`);
     } catch (error) {
       console.log("Error al actualizar el usuario:", error.message);
     }
   };
+
+  const handleDeleteUser = async (e) => {
+    e.preventDefault();
+
+    const confirmation = window.prompt(
+      "Are you sure you want to delete your account? This action is irreversible. Type 'yes' to confirm."
+    );
+
+    if (confirmation === "yes") {
+      try {
+        // Success
+        await dispatch(deleteUser(userId));
+        navigate("/");
+      } catch (error) {
+        // Error
+        console.error("Error deleting user:", error);
+      }
+    } else {
+      navigate("/profile");
+      // User chose not to delete the account
+      // You can add any relevant action or message here
+    }
+  };
+
   return (
     <div className={styles.profile_img}>
       <div className={styles.profile_container}>
@@ -150,6 +181,13 @@ const Profile = () => {
               <div>
                 <button className={styles.profile_btn} type="submit">
                   Update Profile
+                </button>
+                <button
+                  className={styles.profile_btn}
+                  type="submit"
+                  onClick={handleDeleteUser}
+                >
+                  Delete my account
                 </button>
               </div>
             </form>

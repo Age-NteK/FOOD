@@ -4,6 +4,7 @@ export const REGISTER_USER = "REGISTER_USER"; // ? OK
 export const USER_PROFILE = "USER_PROFILE"; // ? OK
 export const UPDATE_USER = "UPDATE_USER"; // ? OK
 export const GET_MY_RECIPES = "GET_MY_RECIPES"; // ? OK
+export const DELETE_USER = "DELETE_USER" // ? 
 
 // ! RECIPES
 export const GET_ALL_RECIPES = "GET_ALL_RECIPES"; // ? OK

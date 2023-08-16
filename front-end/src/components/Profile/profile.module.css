@@ -75,9 +75,11 @@
 
 .profile_btn {
   display: inline;
+  padding: 5px;
   margin-top: 50px;
   margin-bottom: 20px;
-  min-height: 50px;
+  min-height: 45px;
+  margin-right: 35px;
   min-width: 150px;
   border-radius: 5px;
   font-size: 20px;

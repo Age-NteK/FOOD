@@ -58,7 +58,6 @@ module.exports = (sequelize) => {
       },
       pricePerServing: {
         type: DataTypes.FLOAT,
-        allowNull: false,
       },
       dairyFree: {
         type: DataTypes.BOOLEAN,

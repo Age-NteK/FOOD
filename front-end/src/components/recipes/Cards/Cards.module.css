@@ -55,7 +55,7 @@
 
 .pagination {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -65,7 +65,7 @@
 }
 
 .search {
-  margin-right: 26%; 
+  margin-right: 26%;
   margin-left: 95px;
   letter-spacing: 2px;
   background-color: rgba(196, 226, 166, 0.829);

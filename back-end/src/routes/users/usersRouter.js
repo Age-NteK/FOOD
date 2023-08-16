@@ -10,10 +10,10 @@ const getUserByEmailAndPassword = require("../../controllers/users/getUserByEmai
 const registerUser = require("../../controllers/users/registerUser");
 const getAllUsers = require("../../controllers/users/getAllUsers");
 const getByUsername = require("../../controllers/users/getByUsername");
-const deleteUser = require("../../controllers/users/deleteUser");
 const updateUser = require("../../controllers/users/updateUser");
 const getMyRecipes = require("../../controllers/users/getMyRecipes");
 const getUserById = require("../../controllers/users/getUserById");
+const deleteUser = require("../../controllers/users/deleteUser");
 
 /*
 * Se definen las rutas y asocia las funciones de controlador correspondientes */

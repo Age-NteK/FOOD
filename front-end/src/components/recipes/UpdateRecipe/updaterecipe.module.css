@@ -4,7 +4,7 @@
   align-items: center;
   height: 100vh;
   width: 100%;
-  grid-template-columns: 1fr 1fr; /* Divide the container into two columns of equal width */
+  grid-template-columns: 48% 53%;
   gap: 0px;
 }
 

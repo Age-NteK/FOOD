@@ -9,6 +9,7 @@ import {
   USER_PROFILE,
   UPDATE_USER,
   GET_MY_RECIPES,
+  DELETE_USER,
 
   // ? RECIPES
   GET_ALL_RECIPES,
@@ -59,6 +60,7 @@ const initialState = {
   userProfile: [],
   updateUser: [],
   userRecipes: [],
+  userDelete: [],
 
   // ? RECIPES
   allRecipes: [],
@@ -148,6 +150,14 @@ const reducer = (state = initialState, { type, payload }) => {
         ...state,
         userRecipes: payload,
       };
+
+      // * userDelete
+      case DELETE_USER:
+        console.log(payload);
+        return {
+          ...state,
+          userDelete: payload,
+        };
 
     // ! ------------------------------------------------------------------
     // ! RECIPES

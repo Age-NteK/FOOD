@@ -37,7 +37,7 @@ const getMyRecipes = async (req, res) => {
       return res.status(404).json({ error: "Usuario no encontrado" });
     }
 
-    console.log("Recetas asociadas al usuario:", user.Recipes);
+    // console.log("Recetas asociadas al usuario:", user.Recipes);
     res.json({ userRecipes: user.Recipes });
   } catch (error) {
     console.error("Error al obtener las recetas del usuario:", error);

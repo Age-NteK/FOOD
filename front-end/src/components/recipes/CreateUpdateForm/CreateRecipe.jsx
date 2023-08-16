@@ -206,9 +206,7 @@ const CreateRecipe = () => {
             onChange={onChange}
           />
           {formErrors.steps && (
-            <p className={styles.create_p}>
-              You must to enter at least one Step
-            </p>
+            <p className={styles.create_p}>{formErrors.steps}</p>
           )}
           <Steps
             value={formData.steps}
@@ -238,9 +236,9 @@ const CreateRecipe = () => {
             value={formData.veryPopular}
             onChange={onChange}
           />
-          {formErrors.healthScore && (
+          {/* {formErrors.healthScore && (
             <p className={styles.create_p}>{formErrors.healthScore}</p>
-          )}
+          )} */}
           <Health
             name="healthScore"
             value={formData.healthScore}
