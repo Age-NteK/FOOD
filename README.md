@@ -1,254 +1,93 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+### Your Culinary Journey in a Friendly Environment
+# Always Your Way
 
-# **FOOD** | Proyecto Individual
+## Login
 
-## **📌 OBJETIVOS**
+- Inicia sesión en tu cuenta de usuario para explorar los detalles de las recetas más exquisitas.
+- Log in to your user account to explore the details of the most exquisite recipes.
 
--  Construir una Single Page Application utlizando las tecnologías: **React**, **Redux**, **Node**, **Express** y **Sequelize**.
--  Poner en práctica recursos básicos de estilos y diseño (UX : UI).
--  Afirmar y conectar los conceptos aprendidos en la carrera.
--  Aprender mejores prácticas.
--  Aprender y practicar el workflow de GIT.
--  Utilizar y practicar testing.
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/cd20b38c-97cb-44ba-ad73-dbd4210f00ce)
 
-<br />
+## Register
 
----
+- Regístrate y forma parte de nuestra comunidad culinaria. Crea tu perfil personalizado y comienza a compartir tus propias recetas con entusiastas de la cocina.
+- Sign up and become part of our culinary community. Create your personalized profile and start sharing your own recipes with cooking enthusiasts.
 
-## **⏱ HORARIOS Y FECHAS**
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/606336c0-e91e-478f-86ad-be8d7869076e)
 
-El proyecto individual tiene una duración máxima de tres semanas. Se inicia la primera semana con un Kick-Off, y se agendará una corrección personalizada la última semana.
+## Home
 
-En el caso de completar todas las tareas antes de dicho lapso se podrá avisar a su instructor para coordinar una fecha de presentación del trabajo (DEMO).
+- La página de inicio te da la bienvenida con una selección de las recetas más populares y nuevas en nuestra plataforma. ¡Inspírate y comienza tu viaje culinario!
+- The home page welcomes you with a selection of the most popular and newest recipes on our platform. Get inspired and start your culinary journey!
 
-<br />
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/ac927628-8f10-4210-aba5-cb6693d42e43)
 
----
+## Detail Recipe
 
-## **⚠️ IMPORTANTE**
+- Descubre todos los detalles de una receta específica. Ingredientes, instrucciones paso a paso y consejos útiles para que tus platillos sean un éxito.
+- Discover all the details of a specific recipe. Ingredients, step-by-step instructions, and useful tips for making your dishes a success.
 
-Es necesario contar minimamente con la última versión estable de NodeJS y NPM. Asegúrate de contar con ella para poder instalar correctamente las dependecias necesarias para correr el proyecto. Actualmente las versiónes necesarias son:
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/cb380ccd-c5a3-46a8-aa0b-e1d7b1d2fc6b)
 
--  **Node**: 12.18.3 o mayor
--  **NPM**: 6.14.16 o mayor
+## Create Recipe
 
-Para verificar que versión tienes instalada:
+- ¿Tienes una receta única? Compártela con la comunidad. Crea, edita y publica tus propias recetas, ¡y permite que otros disfruten de tus creaciones!
+- Got a unique recipe? Share it with the community. Create, edit, and publish your own recipes, and let others enjoy your creations!
 
-```bash
-node -v
-npm -v
-```
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/b0670582-2281-4d0e-8040-553638beb576)
 
-**ACLARACIÓN:** las dependencias actuales se encuentran en las versiones que venimos trabajando durante el bootcamp.
+## My recipes
 
--  **react**: 17.0.1
--  **react-dom**: 17.0.1
--  **react-router-dom**: 5.2.0
--  **redux**: 4.0.5
--  **react-redux**: 7.2.3
+- Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
+- Quickly access all your saved and published recipes in one place. Organize your customized collection for easy reference.
 
-Está permitido, **bajo tu responsabilidad**, actualizar las dependencias a versiones más actuales si lo deseas. Versiones mas actuales podrían presentar configuraciones diferentes respecto a las versiones en las que venimos trabajando durante el bootcamp.
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/25042227-c418-46b1-a8ac-e19739bd79d1)
 
-### **⛔️ Está rotundamente prohibido utilizar librerías externas para aplicar estilos a la SPA. Tendrás que utilizar CSS mediante algunas de las opciones vistas en el bootcamp (CSS, Legacy, Inline Styling, CSS Modules o Styled Components).**
+## Update Recipe
 
-<br />
+- Realiza mejoras y ajustes en tus recetas existentes. Mantén tus creaciones actualizadas con nuevos detalles y enfoques culinarios.
+- Make improvements and adjustments to your existing recipes. Keep your creations up to date with new details and culinary approaches.
 
----
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/e5fc2742-eb27-4686-bef7-9ef5cee33f31)
 
-## **📋 PARA COMENZAR...**
+## My Favorites
 
-1. Deberás forkear este repositorio para tener una copia del mismo en tu cuenta personal de GitHub.
+- Guarda tus recetas favoritas en un espacio dedicado. Encuentra rápidamente las delicias que más te gustan y disfruta cocinándolas una y otra vez.
+- Save your favorite recipes in a dedicated space. Quickly find the delights you love the most and enjoy cooking them again and again.
 
-2. Clona el repositorio en tu computadora para comenzar a trabajar. Este repositorio contiene un **`BoilerPlate`** con la estructura general del proyecto, tanto del servidor como del cliente. El boilerplate cuenta con dos carpetas: **`api`** y **`client`**. En estas carpetas estará el código del back-end y el front-end respectivamente.
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/60917b8d-b1fe-4e9f-8658-35e2ce69bc10)
 
-3. En la carpeta **`api`** deberás crear un archivo llamado: **`.env`** que tenga la siguiente forma:
+## Diets
 
-   ```env
-       DB_USER=usuariodepostgres
-       DB_PASSWORD=passwordDePostgres
-       DB_HOST=localhost
-   ```
+- Explora una variedad de opciones de dietas, desde saludables hasta indulgentes. Encuentra recetas que se ajusten a tus preferencias alimenticias y objetivos.
+- Explore a variety of diet options, from healthy to indulgent. Find recipes that fit your dietary preferences and goals.
 
-4. Reemplazar **`usuariodepostgres`** y **`passwordDePostgres`** con tus propias credenciales para conectarte a postgres. Este archivo va ser ignorado en la subida a github, ya que contiene información sensible (las credenciales).
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/7cd84887-4f00-4f89-814f-8129c20ee2f4)
 
-5. Adicionalmente será necesario que crees, **desde psql (shell o PGAdmin)**, una base de datos llamada **`food`**. Si no realizas este paso de manera manual no podrás avanzar con el proyecto.
+## My Diets
 
-<br />
+- Lleva un registro de tus preferencias dietéticas. Mantén un control de tus elecciones alimenticias y encuentra recetas adecuadas para tu estilo de vida.
+- Keep track of your dietary preferences. Maintain control over your food choices and find recipes suitable for your lifestyle.
 
----
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/54762ad5-d77e-444c-9ebb-77a6a4768120)
 
-## **📖 ENUNCIADO GENERAL**
+## My Profile
 
-La idea de este proyecto es construir una aplicación web a partir de la API [**spoonacular**](https://spoonacular.com/food-api) en la que se pueda:
+- Muestra al mundo tu pasión por la cocina. Accede a tu perfil, actualiza tus datos y mantente al día.
+- Show the world your passion for cooking. Access your profile, update your information, and stay up-to-date. Add a description about yourself.
 
--  Buscar recetas.
--  Visualizar la información de las recetas.
--  Filtrarlas.
--  Ordenarlas.
--  Crear nuevas recetas.
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/080f93c8-7303-44d2-8d1d-18c1c45c9cd2)
 
-⚠️ Para las funcionalidades de filtrado y ordenamiento NO se puede utilizar los endpoints de la API externa que ya devuelven los resultados filtrados u ordenados.
+## About
 
-**IMPORTANTE**: para poder utilizar la API es necesario crear una cuenta y obtener una ApiKey que luego deberá ser incluida en todos los request que hagamos. Esto se logra simplemente agregando **`?api_key={YOUR_API_KEY}`** al final de cada end-point. Agregar la clave en el archivo **`.env`** para que la misma no se suba al repositorio por cuestiones de seguridad.
+- Descubre nuestra misión y visión, y conoce cómo trabajamos para brindarte la mejor experiencia.
+- Discover our mission and vision, and learn how we work to provide you with the best experience.
 
-### **Únicos end-points que se pueden utilizar**
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/1d6a9ffa-bc02-4d85-a202-cf3f65370a9c)
 
--  [**Spoonacular**](https://api.spoonacular.com/recipes/complexSearch)
--  Para obtener mayor información sobre las recetas, como por ejemplo el tipo de dieta, debes agregar el flag **`&addRecipeInformation=true`** a ese end-point.
--  Para los tipos de dieta debes tener en cuenta las propiedades **vegetarian**, **vegan** y **glutenFree** por un lado, y también analizar las que se incluyan dentro de la propiedad **`diets`** por otro.
--  **Search By 'ID':** _"https://api.spoonacular.com/recipes/{id}/information"_
+## Not Found
 
-<br />
+- ¡Oops! Parece que te has perdido. Esta página te ayudará a regresar al camino correcto si te encuentras en una ruta desconocida.
+- Oops! Looks like you're lost. This page will help you get back on track if you find yourself on an unfamiliar path.
 
----
-
-<div align="center">
-
-## **📁 INSTRUCCIONES**
-
-</div>
-
-<br />
-
-### **🖱 BASE DE DATOS**
-
-Deberás crear dos modelos para tu base de datos. Una será para las recetas y la otra será para los tipos de dietas (pueden llevar el nombre que tu quieras). La relación entre ambos modelos debe ser de muchos a muchos. A continuación te dejamos las propiedades que debe tener cada modelo.
-
-**📍 MODELO 1 | Recipe**
-
--  ID. \*
--  Nombre. \*
--  Imagen. \*
--  Resumen del plato. \*
--  Nivel de comida saludable (health score). \*
--  Paso a paso. \*
-
-<br />
-
-**📍 MODELO 2 | Diets**
-
--  ID. \*
--  Nombre. \*
-
-<br />
-
----
-
-<br />
-
-### **🖱 BACK-END**
-
-Para esta parte deberás construir un servidor utilizando **NodeJS** y **Express**. Tendrás que conectarlo con tu base de datos mediante **Sequelize**.
-
-Tu servidor deberá contar con las siguientes rutas:
-
-#### **📍 GET | /recipes/:idRecipe**
-
--  Esta ruta obtiene el detalle de una receta específica. Es decir que devuelve un objeto con la información pedida en el detalle de una receta.
--  La receta es recibida por parámetro (ID).
--  Tiene que incluir los datos de los tipos de dietas asociados a la receta.
--  Debe funcionar tanto para las recetas de la API como para las de la base de datos.
-
-#### **📍 GET | /recipes/name?="..."**
-
--  Esta ruta debe obtener todas aquellas recetas que coincidan con el nombre recibido por query. (No es necesario que sea una coincidencia exacta).
--  Debe poder buscarla independientemente de mayúsculas o minúsculas.
--  Si no existe la receta, debe mostrar un mensaje adecuado.
--  Debe buscar tanto las de la API como las de la base de datos.
-
-#### **📍 POST | /recipes**
-
--  Esta ruta recibirá todos los datos necesarios para crear una nueva receta y relacionarla con los tipos de dieta solicitados.
--  Toda la información debe ser recibida por body.
--  Debe crear la receta en la base de datos, y esta debe estar relacionada con los tipos de dieta indicados (al menos uno).
-
-#### **📍 GET | /diets**
-
--  Obtiene un arreglo con todos los tipos de dietas existentes.
--  En una primera instancia, cuando no exista ninguna dieta, deberás precargar la base de datos con las dietas de la [**documentación**](https://spoonacular.com/food-api/docs#Diets).
--  Estas deben ser obtenidas de la API (se evaluará que no haya hardcodeo). Luego de obtenerlas de la API, deben ser guardadas en la base de datos para su posterior consumo desde allí.
-
-<br />
-
----
-
-<br />
-
-### **🖱 FRONT-END**
-
-Se debe desarrollar una aplicación utilizando **React** y **Redux** que contenga las siguientes vistas:
-
-**📍 LANDING PAGE |** deberás crear una página de inicio o bienvenida con:
-
--  Alguna imagen de fondo representativa al proyecto.
--  Botón para ingresar a la **`home page`**.
-
-<br />
-
-**📍 HOME PAGE |** la página principal de tu SPA debe contener:
-
--  SearchBar: un input de búsqueda para encontrar recetas por nombre.
--  Sector en el que se vea un listado de cards con las recetas. Al iniciar deberá cargar los primeros resultados obtenidos desde la ruta **`GET /recipes`** y deberá mostrar su:
-   -  Imagen.
-   -  Nombre.
-   -  Tipos de dietas.
--  Cuando se le hace click a una Card deberá redirigir al detalle de esa receta específica.
--  Botones/Opciones para **filtrar** por tipo de dieta, y por si su origen es de la API o de la base de datos (creados por nosotros desde el formulario).
--  Botones/Opciones para **ordenar** tanto ascendentemente como descendentemente las recetas por orden alfabético y por "comida saludable" (_health score_).
--  Paginado: el listado de recetas se hará por partes. Tu SPA debe contar con un paginado que muestre un total de 9 recetas por página.
-
-**⚠️ IMPORTANTE**: se deben mostrar tanto las recetas traidas desde la API como así también las de la base de datos, pero **NO** está permitido almacenar en la base de datos las recetas de la API. **Solamente se pueden guardar aquellas creadas desde el form**.
-
-**⚠️ IMPORTANTE:** debido a que en la API existen alrededor de 5.000 recetas, por cuestiones de performance puedes tomar la simplificación de obtener y **paginar** las primeras 100 recetas.
-
-<br />
-
-**📍 DETAIL PAGE |** en esta vista se deberá mostrar toda la información específica de una receta:
-
--  ID.
--  Nombre.
--  Resumen del plato.
--  Nivel de comida saludable (health score).
--  Paso a paso.
--  Imagen.
--  Tipos de dieta.
-
-<br />
-
-**📍 FORM PAGE |**: en esta vista se encontrará el formulario para crear una nueva receta.
-
-Este formulario debe ser **controlado completamente con JavaScritp**. No se pueden utilizar validaciones HTML, ni utilizar librerías especiales para esto. Debe contar con los siguientes campos:
-
--  Nombre.
--  Resumen del plato.
--  Nivel de comida saludable (health score).
--  Paso a paso.
--  Imagen.
--  Posibilidad de seleccionar/agregar varios tipos de dieta en simultáneo.
--  Botón para crear la receta.
-
-> [**IMPORANTE**]: es requisito que el formulario de creación esté validado sólo con JavaScript. Puedes agregar las validaciones que consideres. Por ejemplo: que el nombre de la receta no pueda contener números, o que el health score no pueda exceder determinado valor, etc.
-
-<br />
-
----
-
-<br />
-
-### **🖱 TESTING**
-
-Ten en cuenta que en esta instancia no es obligatorio el desarrollo de testing para tu aplicación. De igual manera, te desafiamos a que los hagas, ¡ya que suman puntos!
-
--  Al menos tener un componente del frontend con sus tests respectivos.
--  Al menos tener dos rutas del backend con sus tests respectivos.
--  Al menos tener un modelo de la base de datos con sus tests respectivos.
-
-<br />
-
----
-
-<br />
-
-<div align="center">
-<img src="./cooking.png" alt="" />
-</div>
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/aab2fed1-b9f8-4171-a588-73c56a9c2a58)
