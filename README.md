@@ -90,9 +90,5 @@
 - ¡Oops! Parece que te has perdido. Esta página te ayudará a regresar al camino correcto si te encuentras en una ruta desconocida.
 - Oops! Looks like you're lost. This page will help you get back on track if you find yourself on an unfamiliar path.
 
-<<<<<<< HEAD
-![image](https://github.com/Age-NteK/FOOD/assets/107895191/aab2fed1-b9f8-4171-a588-73c56a9c2a58)
-=======
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/aab2fed1-b9f8-4171-a588-73c56a9c2a58)
 
->>>>>>> 950a770ee70eee94bb90daa52c2ea4b1dfa4b192
