@@ -28,18 +28,6 @@
   text-align: center;
   grid-column: 2;
 }
-
-/*
-rgb(255, 238, 204);
-rgb(255, 221, 204);
-rgb(255, 204, 204);
-rgb(254, 187, 204);
-rgb(255, 234, 221);
-rgb(252, 174, 174);
-rgb(255, 137, 137);
-rgb(255, 102, 102);
-*/
-
 .myrecipes_title {
   min-width: 98%;
   text-align: center;
@@ -66,7 +54,7 @@ rgb(255, 102, 102);
 }
 
 .myrecipes_item:hover {
-  color:  rgb(63, 10, 23);
+  color: rgb(63, 10, 23);
   background-color: rgb(254, 215, 224);
   box-shadow: 0 0 20px rgb(63, 10, 23);
 }
@@ -79,11 +67,10 @@ rgb(255, 102, 102);
 }
 
 .myrecipes_content:hover {
-  color:  rgb(63, 10, 23);
+  color: rgb(63, 10, 23);
   background-color: rgb(249, 189, 204);
 }
 
-/* Add styles for the recipe buttons */
 .myrecipes_btn {
   background-color: rgba(0, 0, 0, 0);
   border: none;
@@ -92,7 +79,6 @@ rgb(255, 102, 102);
   margin-right: 15px;
 }
 
-/* Add container for the buttons to align them to the right */
 .myrecipes_container_btn {
   display: flex;
   justify-content: flex-end;
@@ -107,6 +93,6 @@ rgb(255, 102, 102);
 }
 
 .myrecipes_title_recipe:hover {
-  color:  rgb(63, 10, 23);
+  color: rgb(63, 10, 23);
   background-color: rgb(249, 189, 204);
 }

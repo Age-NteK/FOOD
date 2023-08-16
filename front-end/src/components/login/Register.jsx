@@ -23,7 +23,7 @@ const Register = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-/*
+  /*
 * Estados locales del componente
 ? isRegistered se inicializa en false. Esta variable se utiliza para rastrear si el usuario se ha registrado correctamente.
 ? hasErrors que se inicializa en false. Este estado se utiliza para rastrear si hay errores en el formulario.
@@ -40,9 +40,9 @@ const Register = () => {
     lastName: "",
     phoneNumber: "",
   });
-  const [formErrors, setFormErrors] = useState({}); 
+  const [formErrors, setFormErrors] = useState({});
 
-/*
+  /*
 * Función para manejar cambios en los campos del formulario 
 ? Se extraen las propiedades name y value del elemento del DOM que desencadenó el evento de cambio (e).
 ? name se refiere al nombre del campo del formulario y value es el nuevo valor ingresado en ese campo.
@@ -66,7 +66,7 @@ const Register = () => {
     setHasErrors(hasFormErrors);
   };
 
-/*
+  /*
 * Función para manejar el envío del formulario, realiza la validación, registra al usuario si no hay errores y maneja la actualización de estados
 ? e.preventDefault();: Esto evita el comportamiento predeterminado de envío del formulario, que es recargar la página.
 ? Se llama a la función validateRegister pasando formData como argumento para validar los datos del formulario y obtener un objeto errors que contiene los errores de validación, si los hay.
@@ -115,7 +115,7 @@ const Register = () => {
     }
   };
 
-/*
+  /*
 * Renderización del componente 
 ! Este bloque de código crea el formulario de registro con campos de entrada para el nombre de usuario y muestra mensajes de error en caso de que la validación falle y tiene un botón de registro que se activa cuando se completan todos los campos correctamente.
 ? Div register_container, define el diseño y el estilo del contenedor del formulario de registro.

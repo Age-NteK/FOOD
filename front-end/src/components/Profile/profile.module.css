@@ -23,7 +23,7 @@
   border-radius: 10px;
   text-align: center;
   background-color: rgba(43, 29, 82, 0.393);
-  border: 2px solid  rgb(103, 71, 199);
+  border: 2px solid rgb(103, 71, 199);
   height: 100%;
 }
 
@@ -31,7 +31,7 @@
   margin-top: 40px;
   letter-spacing: 5px;
   font-size: 70px;
-  border-bottom: 2px solid  rgb(103, 71, 199);
+  border-bottom: 2px solid rgb(103, 71, 199);
   background-color: rgba(35, 17, 89, 0.897);
   color: rgba(230, 223, 255, 0.945);
   padding: 10px;

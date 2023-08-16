@@ -96,8 +96,6 @@ const Profile = () => {
       }
     } else {
       navigate("/profile");
-      // User chose not to delete the account
-      // You can add any relevant action or message here
     }
   };
 

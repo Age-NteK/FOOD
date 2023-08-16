@@ -21,7 +21,6 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  /* margin: 0 30px; */
   font-size: 25px;
   position: relative;
   display: grid;
@@ -43,7 +42,6 @@
   border: 2px solid rgb(63, 7, 7);
   padding: 40px;
   background-color: rgba(55, 7, 7, 0.398);
-  /* border: 3px solid black; */
   display: grid;
   place-items: center;
   grid-template-columns: repeat(4, minmax(400px, 1fr));
@@ -62,7 +60,6 @@
   background-color: rgba(0, 0, 0, 0);
   padding: 25px;
   border-radius: 5px;
-  /* border: 2px solid rgb(0, 0, 0); */
   box-shadow: 0 0px 5px 5px rgba(243, 201, 201, 0.812);
   max-height: 400px;
   overflow: hidden;
@@ -89,7 +86,7 @@
   left: 50%;
   filter: brightness(0.9);
   transition: filter 0.8s, transform 0.7s;
-  z-index: 1; /* Set a higher z-index to make the title and button appear above the image */
+  z-index: 1; /* Para que el title y el button apareezcan por encima de la imagen */
 }
 
 .fav_cont_descr:hover .fav_title {
@@ -116,7 +113,7 @@
   top: 25px;
   right: 30px;
   left: 30px;
-  z-index: 1; /* Set a higher z-index to make the title and button appear above the image */
+  z-index: 1;
   opacity: 0;
   transition: opacity 0.3s;
 }

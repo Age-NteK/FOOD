@@ -1,5 +1,4 @@
 .creatediet_container {
-  /* ...otros estilos ... */
   display: flex;
   /* flex-direction: column; */
   align-items: center;
@@ -8,7 +7,6 @@
 }
 
 .creatediet_container input {
-  /* ...estilos del input ... */
   margin-top: 15px;
   margin-bottom: 15px;
   height: 40px;
@@ -41,7 +39,7 @@
 
 .button_container:hover {
   background-color: rgb(255, 183, 0);
-  box-shadow: 0 0 15px  rgb(78, 59, 9);
+  box-shadow: 0 0 15px rgb(78, 59, 9);
   color: rgb(56, 40, 9);
   /* outline: 1px inset rgb(50, 38, 7); */
 }

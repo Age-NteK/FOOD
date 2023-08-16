@@ -19,7 +19,6 @@
   grid-column-start: 2;
   grid-column-end: 3;
   gap: 20px;
-  /* margin-left: -210px; */
 }
 
 .navbar {
@@ -27,8 +26,8 @@
   grid-row-end: 2;
   display: block;
   text-align: center;
-  opacity: 0; /* Initially set opacity to 0 */
-  visibility: hidden; /* Initially hide the navbar */
+  opacity: 0; /* Inicialmente opacity 0 */
+  visibility: hidden; /* Ocultar inicialmente NavBar */
   margin-left: 20px;
 }
 
@@ -118,16 +117,14 @@
   background-color: rgba(133, 175, 91, 0.829);
 }
 
-/* New styles for when the filters button is clicked */
+/* Styles para Cards cuando los filtros are clicked */
 .cards_all.clicked {
-  grid-template-columns: 20% 75%; /* Set the cards container to occupy 80% and the navbar 20% */
+  grid-template-columns: 20% 75%; /* Container: 80% & Navbar 20% */
 }
 
+/* Styles para Cards cuando filtros are clicked */
 .cards_card.clicked {
-  grid-template-columns: repeat(
-    2,
-    20px
-  ); /* Adjust the card size when filters are clicked */
+  grid-template-columns: repeat(2, 20px);
 }
 
 .cards_all.clicked .navbar {
@@ -143,11 +140,7 @@
   text-align: center;
 }
 
-/* Adjust cards width when the navbar is not visible */
+/* Ajustar Cards cuando NavBar isn't clicked */
 .cards_card.noClicked {
-  grid-template-columns: repeat(1, 100%); /* Set cards to occupy 100% width */
+  grid-template-columns: repeat(1, 100%); /* Cards 100% width */
 }
-
-/* .cards_all .navbar {
-  display: none;
-} */

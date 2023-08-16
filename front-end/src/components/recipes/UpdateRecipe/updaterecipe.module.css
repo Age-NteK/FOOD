@@ -17,13 +17,12 @@
 }
 
 .update_form {
-  /* margin-top: 50px; */
   height: 100%;
   justify-content: center;
   margin-left: -9px;
-  background-color:rgba(206, 206, 90, 0.538);
+  background-color: rgba(206, 206, 90, 0.538);
   text-align: center;
-  grid-column: 2; /* Place the form in the second column */
+  grid-column: 2; /* Ubicar items en la segunda columna */
 }
 
 .update_input {
@@ -48,9 +47,6 @@
   color: rgb(206, 206, 90);
   background-color: rgb(72, 72, 15);
   margin-bottom: 30px;
-
-  /* Añade la transformación para desplazar 100px hacia arriba */
-  /* transform: translateY(-40px); */
 }
 
 .update_subtitle {
@@ -60,10 +56,9 @@
   letter-spacing: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left:9px;
+  margin-left: 9px;
   color: rgba(18, 13, 1, 0.955);
   background-color: rgb(206, 206, 90);
-  /* border:1px solid black; */
 }
 
 .update_add_remove_btn {
@@ -96,7 +91,7 @@
 .update_diet_btn button {
   font-size: 15px;
   letter-spacing: 1px;
-  margin-right:10px;
+  margin-right: 10px;
   border-radius: 5px;
   border: none;
   color: rgb(250, 250, 195);

@@ -31,14 +31,14 @@
   overflow-wrap: break-word;
 } */
 
-.about_name{
+.about_name {
   font-size: 100px;
   background-color: rgba(255, 140, 0, 0.848);
   color: rgba(250, 217, 135, 0.907);
   min-width: 100%;
   text-align: center;
 }
-.about_dev{
+.about_dev {
   font-size: 50px;
   background-color: rgba(255, 142, 3, 0.848);
   color: rgb(0, 0, 0);

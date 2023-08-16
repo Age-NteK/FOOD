@@ -1,4 +1,3 @@
-
 /* 
 ! ESTE ARCHIVO DEFINE UN CONTROLLER cQUE MANEJA UNA SOLICITUD PARA AUTENTICAR UN USUARIO POR EMAIL Y PASSWORD
 
@@ -34,7 +33,6 @@ const getUserByEmailAndPassword = async (req, res) => {
     console.log(user);
     console.log(user.id);
 
-
     if (!user) {
       return res.status(404).json({ access: false });
     }
@@ -52,41 +50,3 @@ const getUserByEmailAndPassword = async (req, res) => {
 /* 
 ! Exporto el controller getUserByEmailAndPassword */
 module.exports = getUserByEmailAndPassword;
-
-
-
-
-
-
-
-
-/* 
-! ESTE ARCHIVO DEFINE UN CONTROLLER PARA OBTENER UN USER POR ID
-
-* Importaciones
-? Importo User de archivo db */
-
-
-/*
-* RegisterUser es una función asíncrona que toma una solicitud (req) y una respuesta (res) como parámetros
-? Verifica que todos los campos requeridos estén presentes en el cuerpo de la solicitud
-? Si falta algún campo, responde con un estado 400 (solicitud incorrecta) y un mensaje de error
-? Utiliza el modelo User para crear un nuevo usuario en la base de datos utilizando los datos proporcionados en el cuerpo de la solicitud
-? Responde con un estado 201 (creado)
-? Envía el nuevo usuario creado junto con su ID en la respuesta JSON
-? Útil para acceder al ID del usuario en otras partes de la aplicación 
-? Si ocurre algún error durante el proceso, captura y maneja el error 
-? Responde con un estado 500 (error interno del servidor)*/
-
-/* 
-! Exporto el controller registerUser */
-
-
-/*
-! BETTER COMMENTS
-
-! Título || Importante || Exportación
-* Subtítulo
-? Párrafo
-? Px. (Por Ejemplo)
-*/

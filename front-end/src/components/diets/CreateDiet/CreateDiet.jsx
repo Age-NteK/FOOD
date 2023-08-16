@@ -7,7 +7,6 @@ import styles from "./creatediet.module.css";
 const CreateDiet = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  // const [name, setName] = useState("");
   const userId = useSelector((state) => state.userId);
   const userIdAsNumber = Number(userId);
 
@@ -16,8 +15,6 @@ const CreateDiet = () => {
     userId: userIdAsNumber,
   });
   console.log(`ID de User: ${userId}`);
-
-
 
   const onChange = (e) => {
     const { name, value } = e.target;

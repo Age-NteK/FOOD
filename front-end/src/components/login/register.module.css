@@ -8,7 +8,6 @@
   background-image: url("../../Images/Heaven2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 .register_form {
   display: grid;
@@ -59,7 +58,7 @@
   width: 150px;
   border-radius: 5px;
   font-size: 20px;
-  border:  none;
+  border: none;
   color: rgba(252, 230, 230, 0.897);
   background-color: rgb(146, 58, 58);
 }
@@ -73,5 +72,3 @@
   cursor: pointer;
   box-sizing: border-box;
 }
-
-

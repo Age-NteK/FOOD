@@ -4,12 +4,12 @@
   border-radius: 20px;
   height: 350px;
   width: 500px;
-  /* border: 1px solid black; */
   position: relative;
+  /* border: 1px solid black; */
 }
 
 .card_container:hover .card_img {
-  filter: brightness(40%) blur(2px); /* Aquí aplicamos el filtro oscuro y el blur */
+  filter: brightness(40%) blur(2px); /* Filtro oscuro y el blur */
   transform: scale(1.05);
 }
 

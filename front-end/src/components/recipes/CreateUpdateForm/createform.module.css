@@ -16,7 +16,6 @@
 
 .create_form {
   border: 1px solid rgba(230, 239, 97, 0.996);
-  /* min-width: 800px; */
   background-color: rgba(0, 0, 0, 0.768);
   min-height: 96.1%;
   gap: 5px;
@@ -73,18 +72,9 @@
 .create_p {
   color: rgb(255, 0, 0);
   font-size: 19px;
-} 
-
-/* .create_btn {
-  text-align: center;
 }
 
-.create_btn button {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
-
+/*
 Estilos para el botón habilitado
 .create_btn button:not(:disabled) {
   background-color: #3498db;
@@ -97,5 +87,3 @@ Estilos para el botón habilitado
   color: #999;
   cursor: not-allowed;
 }  */
-
-

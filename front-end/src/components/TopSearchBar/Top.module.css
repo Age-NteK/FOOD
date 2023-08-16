@@ -3,7 +3,7 @@ html {
 }
 
 .topbar_cont {
-  width: 100%; /* Ahora el componente ocupará el 100% del ancho disponible */
+  width: 100%; /* El componente ocupará el 100% del ancho disponible */
   display: flex;
   justify-content: space-evenly;
   align-items: center; /* Centra verticalmente los elementos en la barra */

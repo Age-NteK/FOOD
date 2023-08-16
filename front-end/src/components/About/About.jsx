@@ -20,10 +20,9 @@ const About = () => {
             respaldada por un conocimiento realmente sólido.
           </p>
           <p className={styles.about_p}>
-            Experiencia | Henry |
-           01/03/2023 - [Fecha de Finalización] - Desarrollo de
-            aplicaciones web completas y funcionales en entornos ágiles. -
-            Colaboración con equipos multidisciplinarios para entregar
+            Experiencia | Henry | 01/03/2023 - [Fecha de Finalización] -
+            Desarrollo de aplicaciones web completas y funcionales en entornos
+            ágiles. - Colaboración con equipos multidisciplinarios para entregar
             soluciones de alta calidad. - Uso de tecnologías Frontend como
             HTML5, CSS3 y JavaScript para crear interfaces de usuario
             atractivas. - Implementación de librerías y frameworks populares

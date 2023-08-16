@@ -44,11 +44,9 @@ dietsRouter.post("/", createDiet);
 dietsRouter.delete("/:id", deleteDiet);
 
 // Ruta para obtener las recetas asociadas a una dieta por su ID
-// Reemplaza "ID" por el valor real de la ruta
 dietsRouter.get("/recipes/:id", getDietRecipe);
 
 // Ruta para eliminar una dieta de una receta por su ID
-// Reemplaza "ID" por el valor real de la ruta
 dietsRouter.delete("/delete/:id", removeDietFromRecipe);
 
 /*

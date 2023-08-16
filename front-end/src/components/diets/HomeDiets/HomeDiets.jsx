@@ -1,12 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  getAllDiets,
-  deleteDiet,
-  getDietByName,
-  clean,
-} from "../../../redux/actions";
-// import { Link } from "react-router-dom";
+import { getAllDiets, deleteDiet } from "../../../redux/actions";
 import SearchDiet from "../SearchDiet/SearchDiet";
 import CreateDiet from "../CreateDiet/CreateDiet";
 
@@ -36,21 +30,18 @@ const HomeDiets = () => {
       <div className={styles.diets_img}></div>
       <div className={styles.diets_center}>
         <h2>Welcome To Diets</h2>
-       
+
         <SearchDiet />
 
         {dietToShow.length === 0 ? (
           <p>Loading...</p>
         ) : (
           dietToShow
-            .filter((diet) => diet.id <= 10) // Filtrar dietas con ID igual o menor a 10
+            .filter((diet) => diet.id <= 10)
             .map((diet, index) => (
               <div key={diet.id} className={styles.diet_item}>
                 <p className={styles.diet_name}>Name: {diet.name}</p>
                 <div className={styles.buttons}>
-                  {/* <Link to={`/detaildiet/${diet.id}`}>
-                    <button>⏩</button>
-                  </Link> */}
                   <button onClick={() => dispatch(deleteDiet(diet.id))}>
                     X
                   </button>
@@ -58,7 +49,7 @@ const HomeDiets = () => {
               </div>
             ))
         )}
-         <CreateDiet />
+        <CreateDiet />
       </div>
     </div>
   );

@@ -28,7 +28,7 @@
   color: rgb(220, 248, 190);
   border-radius: 10px;
   padding: 10px;
-  grid-column: 1 / span 2; /* Make the title span across both columns */
+  grid-column: 1 / span 2; /* Para que title atrviese las dos columnas */
 }
 
 .detail_img {

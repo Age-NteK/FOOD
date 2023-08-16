@@ -31,13 +31,6 @@
   margin-top: 10px;
 }
 
-/* 
-#F6F4EB; 
-#91C8E4; 
-#749BC2; 
-#4682A9; 
- */
-
 .mydiet_items {
   background-color: #4681a951;
   margin-top: 10px;
@@ -51,10 +44,8 @@
   align-items: center;
   margin-top: 35px;
   min-width: 100%;
-  /* height: 70px; */
   border: 5px solid white;
   background-color: #84c8f59c;
-  /* min-height: 50px; */
   margin-bottom: 40px;
 }
 
@@ -86,10 +77,6 @@
 }
 
 .mydiets_btn {
-  /* margin-left: 0px; */
-  /* display: grid;
-  justify-content: end;
-  text-align: end; */
   display: grid;
   justify-content: end;
   text-align: center;
@@ -102,6 +89,4 @@
   margin-right: 10px;
   margin-left: 50px;
   margin-bottom: 10px;
-  /* display: flex;
-  align-items: start; */
 }

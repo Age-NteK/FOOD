@@ -8,19 +8,18 @@
   background-image: url("../../../Images/AllDiets.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100%; /* Cambiar a 100vh para que ocupe toda la altura del viewport */
+  min-height: 100%; /* 100vh ocupa toda la altura del viewport */
   grid-column: 1; /* Colocar la imagen en la primera columna */
 }
 
-
 .diets_center {
   grid-column: 2; /* Colocar el div "center" en la segunda columna */
-  background-color:  rgba(239, 174, 10, 0.357);
+  background-color: rgba(239, 174, 10, 0.357);
   /* justify-content: center; 
   text-align: center; */
   place-items: center;
   max-width: 100%;
-  height: 100%; 
+  height: 100%;
   display: grid;
 }
 .diets h2 {
@@ -31,11 +30,6 @@
   margin-top: 45px;
   text-align: center;
 }
-/* 
-.diets_container_item {
-  justify-content: center;
-  align-items: center;
-} */
 
 .diet_item {
   border-radius: 8px;

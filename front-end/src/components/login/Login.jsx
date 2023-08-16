@@ -89,7 +89,7 @@ const Login = () => {
     }
   };
 
-/*
+  /*
 * Renderización del componente 
 ! Se renderiza una interfaz de inicio de sesión con un logo, un formulario de inicio de sesión 
 ? Incluye campos para el nombre de usuario, correo electrónico y contraseña, y botones para iniciar sesión y registrarse
@@ -164,7 +164,6 @@ const Login = () => {
     </div>
   );
 };
-
 
 /*
 ! Exporto componente Login */

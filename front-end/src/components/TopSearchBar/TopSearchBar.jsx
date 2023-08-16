@@ -12,8 +12,7 @@ import styles from "./Top.module.css";
 /*
 ! El componente TopSearchBar es una barra de navegación que proporciona enlaces a diferentes secciones 
 * Diseñada para ofrecer una forma visualmente atractiva y accesible para que los usuarios puedan navegar entre las diferentes áreas de la aplicación. 
-? Cada botón en la barra de navegación está representado como un enlace Link de React Router, lo que permite al usuario hacer clic en ellos para acceder a las páginas correspondientes. 
-? Los botones están etiquetados con nombres descriptivos, como "Home", "My Recipes", etc */
+? Cada botón en la barra de navegación está representado como un enlace Link de React Router, lo que permite al usuario hacer clic en ellos para acceder a las páginas correspondientes. */
 
 const TopSearchBar = () => {
 
