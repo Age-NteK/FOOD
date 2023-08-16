@@ -1,4 +1,3 @@
-### **FOOD** | Proyecto Individual
 ### Your Culinary Journey in a Friendly Environment
 # Always Your Way
 
