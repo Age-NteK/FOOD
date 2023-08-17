@@ -98,6 +98,6 @@ Si está interesado en colaborar, tiene alguna pregunta o simplemente quiere con
 - 👉 linkedin.com/in/macarena-castillo-366173288 👈
 - 👉 macarenacastilloruiz@gmail.com 👈
 
-## **🍀 ¡Gracias por visitar mi repositorio y por ser parte de mi viaje de aprendizaje en el mundo de la tecnología!🍀**
+### **🍀 ¡Gracias por visitar mi repositorio y por ser parte de mi viaje de aprendizaje en el mundo de la tecnología!🍀**
 
 
