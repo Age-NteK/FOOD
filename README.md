@@ -1,5 +1,5 @@
-### Your Culinary Journey in a Friendly Environment
-# Always Your Way
+# Food App || Always Your Way
+### Your Culinary Journey in a Friendly Environment 
 
 ## Login
 
@@ -36,19 +36,19 @@
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/b0670582-2281-4d0e-8040-553638beb576)
 
-## My recipes
-
-- Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
-- Quickly access all your saved and published recipes in one place. Organize your customized collection for easy reference.
-
-![image](https://github.com/Age-NteK/FOOD/assets/107895191/25042227-c418-46b1-a8ac-e19739bd79d1)
-
 ## Update Recipe
 
 - Realiza mejoras y ajustes en tus recetas existentes. Mantén tus creaciones actualizadas con nuevos detalles y enfoques culinarios.
 - Make improvements and adjustments to your existing recipes. Keep your creations up to date with new details and culinary approaches.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/e5fc2742-eb27-4686-bef7-9ef5cee33f31)
+
+## My recipes
+
+- Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
+- Quickly access all your saved and published recipes in one place. Organize your customized collection for easy reference.
+
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/25042227-c418-46b1-a8ac-e19739bd79d1)
 
 ## My Favorites
 
@@ -91,4 +91,12 @@
 - Oops! Looks like you're lost. This page will help you get back on track if you find yourself on an unfamiliar path.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/aab2fed1-b9f8-4171-a588-73c56a9c2a58)
+
+## Contacto
+
+Si está interesado en colaborar, tiene alguna pregunta o simplemente quiere conectarse, le extiendo una cordial invitación para visitar mi perfil de linkedin. También, puede comunicarse conmigo vía email.
+- linkedin.com/in/macarena-castillo-366173288
+- macarenacastilloruiz@gmail.com
+## ¡Gracias por visitar mi repositorio y por ser parte de mi viaje de aprendizaje en el mundo de la tecnología!
+
 
