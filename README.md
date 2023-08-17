@@ -1,5 +1,5 @@
 # **🥗 Food App || Always Your Way 🥗**
-# Your Culinary Journey in a Friendly Environment
+## Your Culinary Journey in a Friendly Environment
 
 ## ⚜️ Login ⚜️
 
