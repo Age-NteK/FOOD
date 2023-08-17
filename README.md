@@ -36,19 +36,26 @@
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/b0670582-2281-4d0e-8040-553638beb576)
 
-## My recipes
-
-- Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
-- Quickly access all your saved and published recipes in one place. Organize your customized collection for easy reference.
-
-![image](https://github.com/Age-NteK/FOOD/assets/107895191/25042227-c418-46b1-a8ac-e19739bd79d1)
-
 ## Update Recipe
 
 - Realiza mejoras y ajustes en tus recetas existentes. Mantén tus creaciones actualizadas con nuevos detalles y enfoques culinarios.
 - Make improvements and adjustments to your existing recipes. Keep your creations up to date with new details and culinary approaches.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/e5fc2742-eb27-4686-bef7-9ef5cee33f31)
+
+## My Profile
+
+- Muestra al mundo tu pasión por la cocina. Accede a tu perfil, actualiza tus datos y mantente al día.
+- Show the world your passion for cooking. Access your profile, update your information, and stay up-to-date. Add a description about yourself.
+
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/080f93c8-7303-44d2-8d1d-18c1c45c9cd2)
+
+## My recipes
+
+- Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
+- Quickly access all your saved and published recipes in one place. Organize your customized collection for easy reference.
+
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/25042227-c418-46b1-a8ac-e19739bd79d1)
 
 ## My Favorites
 
@@ -70,13 +77,6 @@
 - Keep track of your dietary preferences. Maintain control over your food choices and find recipes suitable for your lifestyle.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/54762ad5-d77e-444c-9ebb-77a6a4768120)
-
-## My Profile
-
-- Muestra al mundo tu pasión por la cocina. Accede a tu perfil, actualiza tus datos y mantente al día.
-- Show the world your passion for cooking. Access your profile, update your information, and stay up-to-date. Add a description about yourself.
-
-![image](https://github.com/Age-NteK/FOOD/assets/107895191/080f93c8-7303-44d2-8d1d-18c1c45c9cd2)
 
 ## About
 
