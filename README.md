@@ -1,21 +1,21 @@
 # **🥗 Food App || Always Your Way 🥗**
-## 🌮 Your Culinary Journey in a Friendly Environment 🌮
+# 🌮 Your Culinary Journey in a Friendly Environment 🌮
 
-### ⚜️ Login ⚜️
+## ⚜️ Login ⚜️
 
 - Inicia sesión en tu cuenta de usuario para explorar los detalles de las recetas más exquisitas.
 - Log in to your user account to explore the details of the most exquisite recipes.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/cd20b38c-97cb-44ba-ad73-dbd4210f00ce)
 
-### ⚜️ Register ⚜️
+## ⚜️ Register ⚜️
 
 - Regístrate y forma parte de nuestra comunidad culinaria. Crea tu perfil personalizado y comienza a compartir tus propias recetas con entusiastas de la cocina.
 - Sign up and become part of our culinary community. Create your personalized profile and start sharing your own recipes with cooking enthusiasts.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/606336c0-e91e-478f-86ad-be8d7869076e)
 
-### ⚜️ Home ⚜️
+## ⚜️ Home ⚜️
 
 - La página de inicio te da la bienvenida con una selección de las recetas más populares y nuevas en nuestra plataforma. ¡Inspírate y comienza tu viaje culinario!
 - The home page welcomes you with a selection of the most popular and newest recipes on our platform. Get inspired and start your culinary journey!
