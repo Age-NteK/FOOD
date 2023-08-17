@@ -43,13 +43,6 @@
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/e5fc2742-eb27-4686-bef7-9ef5cee33f31)
 
-## My Profile
-
-- Muestra al mundo tu pasión por la cocina. Accede a tu perfil, actualiza tus datos y mantente al día.
-- Show the world your passion for cooking. Access your profile, update your information, and stay up-to-date. Add a description about yourself.
-
-![image](https://github.com/Age-NteK/FOOD/assets/107895191/080f93c8-7303-44d2-8d1d-18c1c45c9cd2)
-
 ## My recipes
 
 - Accede rápidamente a todas tus recetas guardadas y publicadas en un solo lugar. Organiza tu colección personalizada para una fácil referencia.
@@ -77,6 +70,13 @@
 - Keep track of your dietary preferences. Maintain control over your food choices and find recipes suitable for your lifestyle.
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/54762ad5-d77e-444c-9ebb-77a6a4768120)
+
+## My Profile
+
+- Muestra al mundo tu pasión por la cocina. Accede a tu perfil, actualiza tus datos y mantente al día.
+- Show the world your passion for cooking. Access your profile, update your information, and stay up-to-date. Add a description about yourself.
+
+![image](https://github.com/Age-NteK/FOOD/assets/107895191/080f93c8-7303-44d2-8d1d-18c1c45c9cd2)
 
 ## About
 
