@@ -92,11 +92,12 @@
 
 ![image](https://github.com/Age-NteK/FOOD/assets/107895191/aab2fed1-b9f8-4171-a588-73c56a9c2a58)
 
-## Contacto
+## ☎️ Contacto ☎️
 
 Si está interesado en colaborar, tiene alguna pregunta o simplemente quiere conectarse, le extiendo una cordial invitación para visitar mi perfil de linkedin. También, puede comunicarse conmigo vía email.
-- linkedin.com/in/macarena-castillo-366173288
-- macarenacastilloruiz@gmail.com
-## ¡Gracias por visitar mi repositorio y por ser parte de mi viaje de aprendizaje en el mundo de la tecnología!
+- 👉 linkedin.com/in/macarena-castillo-366173288 👈
+- 👉 macarenacastilloruiz@gmail.com 👈
+
+## **🍀 ¡Gracias por visitar mi repositorio y por ser parte de mi viaje de aprendizaje en el mundo de la tecnología!🍀**
 
 
