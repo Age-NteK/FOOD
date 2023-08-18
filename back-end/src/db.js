@@ -29,8 +29,6 @@ const sequelize = new Sequelize(
 
 const basename = path.basename(__filename);
 
-/*
-? Carga las definiciones de modelos encontrados en el set modelDefiners en lugar de un array */
 const modelDefiners = new Set();
 
 /*
